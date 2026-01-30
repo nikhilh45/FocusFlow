@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    color: #fff;
+}
+
+#bgUpload {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.dashboard {
+    max-width: 420px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    text-align: center;
+}
+
+#clock {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-box {
+    margin-top: 20px;
+}
+
+.task-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+.task-box button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#taskList li {
+    background: rgba(255,255,255,0.15);
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Dark Mode */
+.dark .dashboard {
+    background: rgba(0,0,0,0.8);
+}
+.focus-box {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 8px;
+}
+
+.focus-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Upload -->
+    <input type="file" id="bgUpload" accept="image/*">
+
+    <div class="dashboard">
+        <h2 id="greeting"></h2>
+        <div class="focus-box">
+    <p>🎯 Today's Focus</p>
+    <input type="text" id="focusInput" placeholder="Enter your main focus">
+</div>
+
+        <h1 id="clock">00:00:00</h1>
+
+        <div class="controls">
+            <button id="formatBtn">Switch to 12-Hour</button>
+            <button id="themeBtn">Dark Mode</button>
+        </div>
+
+        <!-- Task Section -->
+        <div class="task-box">
+            <h2>Important Tasks</h2>
+            <input type="text" id="taskInput" placeholder="Task name">
+            <input type="date" id="dateInput">
+            <button id="addTaskBtn">Add Task</button>
+
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
